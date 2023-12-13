@@ -88,8 +88,6 @@ function saveToLocalstorage(poll, answerId) {
   }
 
   const getTotalVotesCount = (votes, numOfAnswers) => {
-    console.log("votes -->", votes);
-    console.log("numOfAnswers -->", numOfAnswers);
 
     var count = 0;
     for (let i = 0; i < numOfAnswers; i++) {
