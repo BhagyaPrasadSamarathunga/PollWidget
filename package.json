@@ -1,0 +1,16 @@
+{
+    "name": "poll-widget",
+    "version": "1.0.0",
+    "author": "bhagyasamarathunga@gmail.com",
+    "description": "poll widget",
+    "main": "poll.js",
+
+    "scripts": {
+        "start": "open ./poll/poll1.html",
+        "test": "mocha test/*.test.js"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^8.3.2"
+    }
+  }

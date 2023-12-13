@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First poll</title>
+        <link rel="stylesheet" href="../poll.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="poll-widget"></div>
+        <script src="../poll.js"></script>
+        <script>
+            initPoll(document.getElementById("poll-widget"), {
+              id: 1,
+              question: "How do you feel today?",
+              answers: [
+                "Brilliant! I have so much energy",
+                "Always can be worse",
+                "Please, end my misery",
+              ],
+            });
+          </script>
+    </body>
+</html>
