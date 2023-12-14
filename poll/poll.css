@@ -1,6 +1,5 @@
   .poll-container {
-    width: 95%;
-    max-width: 400px;
+    max-width: 500px;
     margin: 10px auto;
     font-weight: 400;
   }
@@ -69,4 +68,23 @@
     height: 10px;
     background-color: #4caf50;
     transition: width 0.3s ease-in-out;
+  }
+
+  @media all and (max-width: 768px) {
+    .poll-container {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    .poll-container {
+      max-width: 500px;
+    }
+  }
+
+  @media all and (max-width: 1200px) {
+    .poll-container {
+      max-width: 600px;
+    }
   }
