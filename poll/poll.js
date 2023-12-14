@@ -101,6 +101,7 @@ function saveToLocalstorage(poll, answerId) {
     exports.AnswerRow = AnswerRow;
     exports.Poll = renderPoll;
     exports.Question = Question;
+    exports.initPoll = initPoll;
     exports.getTotalVotesCount = getTotalVotesCount;
   }
 

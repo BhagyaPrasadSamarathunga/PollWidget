@@ -1,11 +1,10 @@
 const assert = require("assert");
-const poll = require("../poll.js");
+const poll = require("../poll/poll.js");
 
 describe("Poll question", () => {
     it("successfully render the poll question", () => {
       // Inputs
       const question = "How you like the Opinary test";
-      const id = 1;
       const expected = ` <p class="poll-question">How you like the Opinary test</p> `;
   
       // render question
